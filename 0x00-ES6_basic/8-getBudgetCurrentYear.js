@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 function getCurrentYear() {
   const date = new Date();
   return date.getFullYear();
