@@ -1,7 +1,8 @@
+/* eslint-disable object-curly-newline */
 export default function getFullResponseFromAPI(bool) {
   return new Promise((resolve, reject) => {
     if (bool) {
-      resolve( {
+      resolve({
         status: 200,
         body: 'Success' });
     } else {
