@@ -47,6 +47,5 @@ studentList.forEach((student) => {
 
   row.appendChild(nameCell);
   row.appendChild(locationCell);
- 
   tbody.appendChild(row);
 });
